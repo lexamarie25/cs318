@@ -1,0 +1,18 @@
+body {
+    background-image: url(editstar-field.jpg);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+li {
+    color:white;
+    list-style-image: url(christmas2015fullmoonedit.png);
+    font-size: 23px;
+}
