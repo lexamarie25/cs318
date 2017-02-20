@@ -1,0 +1,39 @@
+body{ 
+    box-sizing: border-box;
+    background-color: cornsilk;
+}
+
+.stamp {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-style: dashed;
+    border-color: green;
+    border-width: 4px;
+    box-shadow: 10px 10px 10px grey;
+    display: inline-block;
+    background-position: top right, center;
+    background-size: 30%, auto 300px;
+    background-repeat: no-repeat, no-repeat;
+}
+
+#aust {
+    background-image: url(austflag.gif), url(austmap.jpg);
+    
+    
+}
+
+#ice {
+    background-image: url(iceflag.gif), url(icemap.jpg);
+
+}
+
+#chi {
+    background-image: url(chiflag.gif), url(chimap.jpg);
+
+}
+
+#russia{
+    background-image: url(Russiaflag.gif), url(Russiamap.jpg);
+
+}
