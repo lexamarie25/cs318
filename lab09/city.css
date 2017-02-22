@@ -1,0 +1,56 @@
+html{
+    background-image: linear-gradient(to bottom, purple, white);
+    background-repeat: no-repeat;
+}
+body{
+    width:1000px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px grey;
+  
+}
+
+h1{
+    text-align: center;
+    background-color: navy;
+    color: azure;
+    margin-bottom: 0;
+}
+
+nav{
+    text-align: center;
+    color: blue;
+    background-color: white;
+    text-decoration-line: underline;
+    height:30px;
+}
+
+.navi{
+    margin-right: 20px;
+}
+
+img {
+    width: 1000px;
+}
+
+h2{
+    text-align: left;
+}
+
+h3{
+    text-align: right;
+}
+
+p{
+    text-align: left;
+}
+
+main{
+    padding: 10px;
+}
+
+footer{
+    text-align: right;
+    font-style: italic;
+}
