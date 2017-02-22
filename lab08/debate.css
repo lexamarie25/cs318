@@ -1,7 +1,71 @@
-body{
+*{
     box-sizing: border-box;
+}
+body{
+    
+    margin: 0;
 }
 
 .blurb{
     width: 90%;
+    box-shadow: 10px 10px 10px grey;
+    font-family: "Playfair Display", serif;
+    border: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+    
 }
+
+#katy{
+    background-color: paleturquoise;
+    text-align: left;
+    padding-left: 210px;
+   
+    
+}
+
+#kanye{
+    background-color: darksalmon;
+    padding-right: 210px;
+    
+}
+
+.right {
+    margin-left: auto;
+    background-image: url(kanye.jpg);
+    background-position: right;
+
+    border-bottom-left-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+.left{
+    
+    background-image: url(katy.jpg);
+ 
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(to right, paleturquoise, darksalmon);
+   box-shadow: inset 0 0 10px darksalmon, 0 0 100px paleturquoise;
+    padding: 0;
+    margin-top: 0;
+}
+
+#katy1{
+    color: lightcoral;
+}
+
+#kanye1{
+    color: steelblue;
+}
+

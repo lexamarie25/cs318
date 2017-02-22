@@ -13,7 +13,7 @@ body{
     box-shadow: 10px 10px 10px grey;
     display: inline-block;
     background-position: top right, center;
-    background-size: 30%, auto 300px;
+    background-size: 40%, auto 300px;
     background-repeat: no-repeat, no-repeat;
 }
 
