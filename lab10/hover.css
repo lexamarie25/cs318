@@ -1,0 +1,43 @@
+#brett{
+    background-image: url(brett.jpg);
+        background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#aaron{
+    background-image: url(aaron.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#green{
+    background-image: url(green.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#josh{
+    background-image: url(josh.jpg);
+        background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.photo{ 
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+}
+
+.photo:hover{
+    visibility: visible;
+    box-shadow: ;
+    top: 10px;
+    left: 10px;
+}

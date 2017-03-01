@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(cork1.jpg);
+    
+}
+
+
+.pushpin {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.animal{
+    width: 200px;
+    height: auto;
+    border-width: 10px 10px 50px 10px;
+    border-style:solid;
+    border-color: white;
+    box-shadow: 10px 10px 10px black;
+}
+
+.photo{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+ 
+}
+
+.label1{
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    left: 80px;
+    right: 0;
+    bottom:40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#cow{
+    transform: rotate(5deg);
+}
+
+
+#duck{
+    transform: rotate(-15deg);
+}
+
+#squirrel{
+    transform: rotate(10deg);
+}
+
+
+
+
+
+
+
