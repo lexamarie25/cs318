@@ -1,28 +1,33 @@
 #brett{
     background-image: url(brett.jpg);
-        background-size: 100%;
+    background-size: 180%;
     background-repeat: no-repeat;
+
 
 }
 
 #aaron{
     background-image: url(aaron.jpg);
-    background-size: 100%;
+    background-size: 180%;
     background-repeat: no-repeat;
+ 
+
 
 }
 
 #green{
     background-image: url(green.jpg);
-    background-size: 100%;
+    background-size: 180%;
     background-repeat: no-repeat;
+
 
 }
 
 #josh{
     background-image: url(josh.jpg);
-        background-size: 100%;
+        background-size: 180%;
     background-repeat: no-repeat;
+
 
 }
 
@@ -31,13 +36,29 @@
     height: 200px;
     display: inline-block;
     border-radius: 50%;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 5px 5px 5px black;
     position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    
 }
 
 .photo:hover{
     visibility: visible;
-    box-shadow: ;
-    top: 10px;
-    left: 10px;
+    box-shadow: 0 0 0 black;
+    top: 20px;
+    left: 20px;
+}
+
+.text{
+    position:absolute;
+    color: powderblue;
+    font-size: 25px;
+    font-family: serif;
+    text-shadow: 3px 3px 5px black; 
+    margin-left: 70px;
+    margin-top: 150px
+
+    
 }
