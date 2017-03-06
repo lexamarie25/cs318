@@ -1,0 +1,103 @@
+nav{
+    background-color: indianred;
+    padding: 5px;
+    float:left;
+    
+    overflow: auto;
+}
+
+header{
+    background-color: darkorange;
+    padding: 10px;
+}
+
+main{
+    background-color: lightyellow;
+    padding: 10px;
+    margin-left: 125px;
+}
+
+footer{
+    background-color: indianred;
+    padding: 10px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+body{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px red; 
+}
+
+ul{
+    list-style: none;
+}
+
+.pizza{
+    background-image: url(pizza.png);
+    position:fixed;
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+    top: 35px;
+    background-color: darkorange;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    background-color: darkorange;
+}
+
+h2{
+    clear: both;
+    background-color: lightyellow;
+}
+
+a{
+    text-decoration: none;
+}
+#order{
+    position: relative;
+    top: 45px;
+    left: 13px;
+    color: azure;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.bacon{
+    background-image: url("baconcheese.jpg");
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    float: right;
+   
+}
+
+.bbq{
+    background-image: url(bbqchicken.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    float: left;
+    
+}
+
+.mac{
+    background-image: url(mac.jpg);
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    float: right; 
+}
+
+.iframe {
+    width: 450px;
+}
+
+* {
+    background-color: indianred;
+}
