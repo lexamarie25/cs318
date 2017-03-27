@@ -1,0 +1,20 @@
+#free{
+    background-color: aqua;
+}
+
+td{
+    width: 25px;
+    border-color: black;
+    border: 1px solid black;
+    text-align: center;
+    height: 25px;
+}
+
+td:hover {
+   background-color: blueviolet;
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;   
+}
