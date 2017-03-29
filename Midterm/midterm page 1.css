@@ -1,0 +1,99 @@
+
+h1{
+   color: white;
+}
+
+h2{
+    color: white;
+}
+
+ol{
+    color: white;
+    
+    
+}
+ul{
+    color: white;
+  
+}
+
+
+#redbox{
+    width: 40px;
+    height: 10px;
+    background-color: red;
+
+}
+
+#orangebox{
+    width: 40px;
+    height: 10px;
+    background-color: orange;
+}
+
+#yellowbox{
+    width: 40px;
+    height: 10px;
+    background-color: yellow;
+}
+
+#greenbox{
+    width: 40px;
+    height: 10px;
+    background-color: greenyellow;
+}
+
+#bluebox{
+    width: 40px;
+    height: 10px;
+    background-color: blue;
+}
+*{
+    background-color: black;
+}
+
+#squarebox{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+#circle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px;
+    
+}
+
+#square1{
+   width: 100px;
+    height: 100px;
+    background-color: black;
+    border border-style: ridge;
+    border-bottom-style: ridge;
+    
+}
+
+#square2{
+   width: 100px;
+    height: 100px;
+    background-color: black;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+}
+
+#square3{
+   width: 100px;
+    height: 100px;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+}
+
+#square4{
+   width: 100px;
+    height: 100px;
+    background-color: black;
+    border-style: ridge;
+}
