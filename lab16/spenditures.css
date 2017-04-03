@@ -1,0 +1,67 @@
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    background-color: maroon;
+    color: white; 
+    margin-bottom: 0; 
+}
+
+
+.label1{
+    border-right: 1px;
+    display: inline-block;
+    position: relative;
+    margin-right: 1px white;
+    
+}
+
+li{
+    border-right:1px; 
+    color: white;
+    display: block;
+}
+
+a{
+    text-decoration-line: none;
+    color: red;
+}
+
+#main{
+    background-color: blue;
+    color: white;
+    text-align: left;
+    list-style: none;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.label1:hover .ma {
+    background-color:gray;
+    cursor: pointer;
+    display: block;
+}
+
+a:hover{
+    color: gainsboro;
+}
+
+.ma{
+    position: absolute;
+    text-align: left;
+    background-color:gray;
+    box-shadow: 5px 5px 5px grey;
+    display: none;
+    left: 0;
+    border-bottom: 1px white;
+}
+
