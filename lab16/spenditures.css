@@ -10,15 +10,16 @@ h1{
     background-color: maroon;
     color: white; 
     margin-bottom: 0; 
+    margin-top: 0;
 }
 
 
 .label1{
-    border-right: 1px;
+    border-right: 1px solid white;
     display: inline-block;
     position: relative;
     margin-right: 1px white;
-    
+    padding: 5px;   
 }
 
 li{
@@ -29,14 +30,15 @@ li{
 
 a{
     text-decoration-line: none;
-    color: red;
+    color: white;
 }
 
 #main{
-    background-color: blue;
+    background-color: navy;
     color: white;
     text-align: left;
     list-style: none;
+   
 }
 
 ul{
@@ -46,13 +48,24 @@ ul{
 }
 
 .label1:hover .ma {
-    background-color:gray;
+    background-color:dimgrey;
     cursor: pointer;
     display: block;
+    padding: 10px;
 }
 
 a:hover{
-    color: gainsboro;
+    background-color: grey;
+}
+
+.label2{
+    
+    left: auto;
+    right:0;
+    top:100%;
+    width: 50px;
+    text-align: left;
+    font-size: 20pt;
 }
 
 .ma{
@@ -63,5 +76,40 @@ a:hover{
     display: none;
     left: 0;
     border-bottom: 1px white;
+    border-right: 5px white;
 }
 
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    margin: 0;
+}
+
+td:last-child{
+  text-align: right;  
+}
+
+.menu{
+    display: none;
+    position: absolute;
+}
+
+
+
+@media(max-width: 40em){
+    nav{display: none;}
+    header{position: absolute;
+            width:100%;
+    }
+    .menu{display: inline-block;
+        right: 0;     
+        bottom:auto;
+    }
+    
+    table{
+        padding-top: 100px;
+    }
+}
