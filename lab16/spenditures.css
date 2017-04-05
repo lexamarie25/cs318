@@ -79,6 +79,12 @@ a:hover{
     border-right: 5px white;
 }
 
+.mb{
+   position: absolute;
+    background-color: gray;
+    
+}
+
 table{
     margin-left: auto;
     margin-right: auto;
@@ -112,4 +118,9 @@ td:last-child{
     table{
         padding-top: 100px;
     }
+    .mb{display: none;}
+    .label2:hover .mb{display:block;}
+    a{font-size: 10pt;}
+    .mb li:hover{ background-color: gainsboro;}
+    
 }
