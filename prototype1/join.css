@@ -28,3 +28,36 @@ ul{
     font-size: 15pt;
     
 }
+
+label{
+    display: block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+
+}
+
+form{
+   background-color: gainsboro;
+    padding: 20px;
+    font-size: 20pt;
+}
+
+.button{
+  background-color: dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+
+
+#mind{
+    text-align: left;
+}
