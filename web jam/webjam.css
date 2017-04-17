@@ -1,0 +1,17 @@
+*{
+    background-color: blue;
+}
+label{
+    display: inline-block;
+}
+
+form{
+    background-color: blue;
+    color: red;
+    font-size:100px;
+    border-style: dotted;
+    border-width: 20px;
+    padding: 15px;
+}
+
+
