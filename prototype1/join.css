@@ -14,8 +14,6 @@ h1{
     text-align: center;
     font-size: 45pt;
     margin-bottom: 0;
-    border-style: solid;
-    border-width: 5px;
 }
 
 h2{
@@ -24,7 +22,7 @@ h2{
 }
 
 main{
-    height: 700px;
+    height: 1000px;
     background-color: azure
 }
 
@@ -37,7 +35,7 @@ ul{
 label{
     display: block;
     padding: 10px;
-    margin-left: 20px;
+    margin-left: 150px;
 }
 
 
@@ -58,11 +56,29 @@ form{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin-left: 150px;
     
+}
+
+textarea{
+    margin-left: 150px;
 }
 
 
 
 #mind{
     text-align: left;
+}
+
+p{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+#join{
+    background-image: url(join.jpg);
+    width: 600px;
+    height: 350px;
+    background-size: 100%;
+    margin-left: 160px;
 }
