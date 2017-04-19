@@ -16,6 +16,11 @@ h1{
     
 }
 
+h2{
+    margin-left: 150px;
+    font-size: 15pt;
+}
+
 main{
     height: 1000px;
     background-color: azure
@@ -25,4 +30,27 @@ ul{
     list-style: none;
     font-size: 15pt;
     
+}
+#danielle{
+    background-image: url(danielle.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    margin-left: 160px;
+}
+
+#jake{
+    background-image: url(jake.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    margin-left: 160px;
+}
+
+#kevin{
+    background-image: url(kevin.jpg);
+    width: 150px;
+    height: 150px;
+    background-size: 100%;
+    margin-left: 160px;
 }

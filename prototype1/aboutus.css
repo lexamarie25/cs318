@@ -30,3 +30,17 @@ ul{
     font-size: 15pt;
     
 }
+p{
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+#about{
+    background-image: url(about1.png);
+    width: 700px;
+    height: 200px;
+    background-size: 100%;
+    margin-left: 150px;
+
+
+}
