@@ -1,0 +1,35 @@
+body{
+    box-sizing: border-box;
+}
+
+.flower{
+    height: 129px;
+    width: 129px;
+    margin: 10px;
+    float:left;
+    z-index: 1;
+}
+
+.flower:nth-child(4n+5){
+    float:left;
+    clear: left;
+}
+
+#flowerbed:hover >img{
+    opacity: 0.1;
+}
+
+#flowerbed img:hover{ 
+    opacity: 1;
+    transform:scale(1.5) rotate(180deg);
+    transition-duration: 2s; 
+    z-index: 2;
+}
+
+#flowerbed{
+    
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
