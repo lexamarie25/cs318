@@ -1,56 +1,74 @@
 *{
-    max-width: 900px;
+    max-width: 1000px;
 }
 nav{
-    background-color: lightblue;
-    padding: 5px;
+    background-color: lightgray;
+    padding: 10px;
     float:left;
     margin: 0;
     overflow: auto;
-    height: 300px;
+    height: 500px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: whitesmoke;
 }
 
 h1{
     text-align: center;
     font-size: 45pt;
+    font-family: fantasy;
+    margin-bottom: 0;
+    margin-left: 150px;
     
 }
 
 h2{
     margin-left: 150px;
     font-size: 15pt;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 0;
 }
 
 main{
     height: 1000px;
-    background-color: azure
+    background-color: aliceblue;
 }
 
 ul{
     list-style: none;
-    font-size: 15pt;
+    font-size: 13pt;
+    text-decoration: none;
     
 }
 #danielle{
-    background-image: url(danielle.jpg);
+    background-image: url(danielle2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
-    margin-left: 160px;
+    margin-left: 250px;
 }
 
 #jake{
-    background-image: url(jake.jpg);
+    background-image: url(kevin2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
-    margin-left: 160px;
+    margin-left: 250px;
 }
 
 #kevin{
-    background-image: url(kevin.jpg);
+    background-image: url(alec2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
-    margin-left: 160px;
+    margin-left: 250px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }

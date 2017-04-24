@@ -1,29 +1,38 @@
 *{
-    max-width: 900px;
+    max-width: 1000px;
 }
 nav{
-    background-color: lightblue;
-    padding: 5px;
+    background-color: lightgray;
+    padding: 10px;
     float:left;
     margin: 0;
     overflow: auto;
-    height: 300px;
+    height: 500px;
+    font-family: sans-serif;
 }
-
+body{
+    background-color: whitesmoke;
+}
 h1{
     text-align: center;
     font-size: 45pt;
     margin-bottom: 0;
+    font-family: fantasy;
 }
-
+h2{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 0;
+    color: gray;
+}
 main{
     height: 1600px;
-    background-color: azure
+    background-color: aliceblue;
 }
 
 ul{
     list-style: none;
-    font-size: 15pt;
+    font-size: 13pt;
     
 }
 
@@ -38,6 +47,7 @@ ul{
 p{
     margin-left: 150px;
     margin-right: 100px;
+    font-family: sans-serif;
 }
 
 #math{
@@ -54,4 +64,22 @@ p{
     height: 350px;
     background-size: 100%;
     margin-left: 160px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 700px) {
+    #math { 
+        width: 400px;
+        height: 200px;
+    }
+      #jobs { 
+        width: 400px;
+          height: 200px;}
+      #connections { 
+        width: 400px;
+        height: 200px;
 }
