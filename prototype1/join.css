@@ -29,8 +29,13 @@ h2{
     color: gray;
 }
 
+h3{
+    font-family: sans-serif;
+    margin-left: 150px;
+}
+
 main{
-    height: 1000px;
+    height: 1700px;
     background-color: aliceblue;
 }
 
@@ -85,7 +90,7 @@ p{
 }
 
 #join{
-    background-image: url(join.jpg);
+    background-image: url(students12.jpg);
     width: 600px;
     height: 350px;
     background-size: 100%;
@@ -100,7 +105,23 @@ a{
 @media (max-width: 700px) {
     #join { 
         width: 400px;
-        height: 200px
+        height: 200px;
         
     }
+    #halloween {
+        width: 400px;
+        height: 200px;
+    }
+}
+
+#halloween{
+    
+    background-image: url(halloween.JPG);
+    width: 600px;
+    height: 650px;
+    background-size: 75%;
+    margin-left: 160px;
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    
 }
