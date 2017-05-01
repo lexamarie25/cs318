@@ -1,0 +1,101 @@
+*{
+    max-width: 1000px;
+}
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    float:left;
+    margin: 0;
+    overflow: auto;
+    height: 500px;
+    font-family: sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+    font-size: 45pt;
+    margin-bottom: 0;
+    font-family: fantasy;
+}
+h2{
+    font-family: monospace;
+    text-align: center;
+    margin-top: 0;
+    color: gray;
+}
+main{
+    height: 1800px;
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+    font-size: 13pt;
+    
+}
+
+#jobs{
+    background-image: url(blus.jpg);
+    width: 600px;
+    height: 450px;
+    background-size: 100%;
+    margin-left: 160px;
+}
+
+p{
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: sans-serif;
+}
+
+
+h3{
+    margin-left: 150px;
+    margin-right: 100px;
+    font-family: sans-serif;
+    }
+
+ol{
+    margin-left: 150px;
+    font-family: sans-serif;
+}
+
+
+#math{
+    background-image: url(math.jpg);
+    width: 600px;
+    height: 350px;
+    background-size: 100%;
+    margin-left: 160px;
+}
+
+#connections{
+    background-image: url(connections.jpg);
+    width: 600px;
+    height: 350px;
+    background-size: 100%;
+    margin-left: 160px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    list-style:circle;
+}
+
+@media (max-width: 700px) {
+    #math { 
+        width: 400px;
+        height: 200px;
+    }
+      #jobs { 
+        width: 400px;
+          height: 200px;}
+      #connections { 
+        width: 400px;
+        height: 200px;
+}
+}
+
