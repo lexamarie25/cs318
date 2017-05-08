@@ -40,8 +40,9 @@ main{
 
 ul{
     list-style: none;
-    font-size: 13pt;
+    font-size: 15pt;
     text-decoration: none;
+    font-family: fantasy;
     
 }
 #danielle{
