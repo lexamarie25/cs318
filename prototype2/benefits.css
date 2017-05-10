@@ -38,7 +38,7 @@ ul{
 }
 
 #jobs{
-    background-image: url(blus.jpg);
+    background-image: url(images/blus.jpg);
     width: 600px;
     height: 450px;
     background-size: 100%;
@@ -65,7 +65,7 @@ ol{
 
 
 #math{
-    background-image: url(math.jpg);
+    background-image: url(images/math.jpg);
     width: 600px;
     height: 350px;
     background-size: 100%;
@@ -73,7 +73,7 @@ ol{
 }
 
 #connections{
-    background-image: url(connections.jpg);
+    background-image: url(images/connections.jpg);
     width: 600px;
     height: 350px;
     background-size: 100%;

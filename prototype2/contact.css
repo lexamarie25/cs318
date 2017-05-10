@@ -46,7 +46,7 @@ ul{
     
 }
 #danielle{
-    background-image: url(danielle2.jpg);
+    background-image: url(images/danielle2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
@@ -54,7 +54,7 @@ ul{
 }
 
 #jake{
-    background-image: url(kevin2.jpg);
+    background-image: url(images/kevin2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
@@ -62,7 +62,7 @@ ul{
 }
 
 #kevin{
-    background-image: url(alec2.jpg);
+    background-image: url(images/alec2.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;
@@ -75,7 +75,7 @@ a{
 }
 
 #alec{
-    background-image: url(jake.jpg);
+    background-image: url(images/jake.jpg);
     width: 150px;
     height: 150px;
     background-size: 100%;

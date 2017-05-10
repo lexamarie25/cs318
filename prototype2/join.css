@@ -90,7 +90,7 @@ p{
 }
 
 #join{
-    background-image: url(students12.jpg);
+    background-image: url(images/students12.jpg);
     width: 600px;
     height: 350px;
     background-size: 100%;
@@ -116,7 +116,7 @@ a{
 
 #halloween{
     
-    background-image: url(halloween.JPG);
+    background-image: url(images/halloween.JPG);
     width: 600px;
     height: 650px;
     background-size: 75%;
